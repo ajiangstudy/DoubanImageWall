@@ -60,4 +60,5 @@ jobs:
           path: |
             output/${{ github.event.inputs.doubanId }}_movie.jpg
             output/${{ github.event.inputs.doubanId }}_music.jpg
+            output/${{ github.event.inputs.doubanId }}_book.jpg
           overwrite: true
